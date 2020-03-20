@@ -1,0 +1,20 @@
+{
+    "name": "starryseer/miniwork",
+    "type": "library",
+    "authors": [
+        {
+            "name": "starryseer",
+            "email": "850812313@qq.com"
+        }
+    ],
+  "require": {},
+  "autoload": {
+      "psr-4": {
+        "Starryseer\\Work\\": "./src/",
+        "App\\": "./app/"
+      },
+     "files":[
+       "src/Super/Helper.php"
+     ]
+  }
+}
