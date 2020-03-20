@@ -1,7 +1,8 @@
 # miniWork
-用laravel ioc模式封装了 原生workerman 实现了简易版的http服务器
+用laravel ioc模式封装了 原生workerman + swoole协程池 实现了简易版的http服务器
 
 目录结构
+
 |-app
 
 |----Http
